@@ -1,0 +1,28 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: 7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    text-align: center;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.452);
+    color: white;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(0, 0, 255);
+    cursor: pointer;
+    transition: 0.25s;
+}
+button:not(:hover){
+    background-color: rgba(0, 0, 255, 0.452);
+    transition: 0.25s;
+}
